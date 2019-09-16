@@ -4,7 +4,7 @@
   "private": true,
   "description": "Example project from an angular.io guide.",
   "scripts": {
-    "start": "ng serve",
+    "start": "ng serve --aot --open --port 4300",
     "start:fr": "ng serve --configuration=fr",
     "build": "ng build --prod",
     "build:fr": "ng build --configuration=production-fr",
