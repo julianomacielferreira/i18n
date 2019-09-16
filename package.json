@@ -5,7 +5,7 @@
   "description": "Example project from an angular.io guide.",
   "scripts": {
     "start": "ng serve --aot --open --port 4300",
-    "start:fr": "ng serve --configuration=fr",
+    "start:fr": "ng serve --aot --open --configuration=fr --port 4300 ",
     "build": "ng build --prod",
     "build:fr": "ng build --configuration=production-fr",
     "test": "ng test",
